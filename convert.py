@@ -53,8 +53,8 @@ def generate_frame(source, destination, net):
 
 
 if __name__ == '__main__':
-    SOURCE = '/media/federico/Volume1/remote/datasets/jjta/jta_out/prova8'
-    DESTINATION = '/media/federico/Volume1/remote/datasets/jjta/jta_out/prova7'
+    SOURCE = '/media/federico/Volume1/remote/datasets/jjta/jta_out/prova9'
+    DESTINATION = '/media/federico/Volume1/remote/datasets/jjta/jta_out/prova10'
 
     net = build_ssd('test', 300, 21)  # initialize SSD
     net.load_weights('./weights/ssd300_mAP_77.43_v2.pth')
